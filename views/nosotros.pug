@@ -1,0 +1,39 @@
+extends ./layout/index 
+
+block contenido
+    main.container.mt-5 
+        .row
+            .col-md-5 
+                img(src="/img/nosotros.jpg", alt="imagen sobre nosotros" class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote  ¡Bienvenidos a Nuestra Aventura!
+                p En Nuestra Aventura, nos apasiona el mundo de los viajes y estamos comprometidos a ofrecer experiencias únicas y memorables a nuestros clientes. Desde nuestro inicio humilde hasta convertirnos en líderes de la industria, hemos estado trabajando arduamente para crear momentos inolvidables en cada destino que exploramos.
+                
+                p Nuestra misión es sencilla: queremos ofrecerte viajes que despierten tus sentidos, amplíen tus horizontes y te conecten con el mundo que te rodea. Nos enorgullece trabajar con pasión y dedicación para superar tus expectativas y brindarte momentos inolvidables.
+
+                p En Nuestra Aventura, creemos en la importancia del turismo sostenible y el respeto por las comunidades locales y el medio ambiente. Nos esforzamos por ofrecer experiencias responsables, trabajando en estrecha colaboración con proveedores locales y promoviendo prácticas sostenibles en cada uno de nuestros destinos. 
+                p No solo creemos en nuestras palabras, sino que nuestros clientes satisfechos también lo confirman. Aquí puedes leer algunos testimonios de aquellos que han experimentado la magia de Nuestra Aventura.
+
+                blockquote ¡Únete a nosotros en esta increíble aventura y descubre el mundo de una manera única!
+
+        .listado-iconos 
+            .container.mt-5.py-5.text-center 
+                .row 
+                    .col-md-4 
+                        img(src="img/icono_seguridad.svg", alt="icono seguridad" class="img-fluid mb-4")
+                        h2.mb-4 Seguridad 
+                        p Tu seguridad es nuestra prioridad. Utilizamos cifrado, firewall y certificados confiables. Confía en nosotros para una experiencia segura y tranquila.
+                    .col-md-4 
+                            img(src="img/icono_destinos.svg", alt="icono destinos" class="img-fluid mb-4")
+                            h2.mb-4 Mejores Destinos 
+                            p Descubre los mejores destinos: playas paradisíacas, ciudades históricas, paisajes impresionantes. Sumérgete en experiencias únicas que te dejarán sin aliento.
+                    .col-md-4 
+                            img(src="img/icono_precios.svg", alt="icono precios" class="img-fluid mb-4")
+                            h2.mb-4 Los Mejores Precios 
+                            p Encuentra los mejores precios para tus viajes. Ofertas irresistibles en vuelos, hoteles y paquetes vacacionales. Ahorra dinero y disfruta al máximo.
+
+
+            
+
+

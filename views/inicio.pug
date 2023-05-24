@@ -1,0 +1,33 @@
+extends ./layout/index 
+
+block slider 
+    .slider
+        h1 Rio de Janeiro 
+        em aventura
+
+
+block contenido
+    main.container.mt-5
+        h2.text-center.mb-5 Sobre Nosotros 
+        .row.mb-5
+            .col-md-6
+                p Nuestra historia comenzó hace más de una década, cuando un grupo de amigos viajeros, Aaron, Claudia, Fredan, Fernando y Raul se dieron cuenta de que su amor por descubrir nuevos lugares y sumergirse en diferentes culturas podía convertirse en una oportunidad para ayudar a otros a vivir experiencias extraordinarias. Desde entonces, hemos crecido y expandido nuestro alcance, pero nuestro espíritu aventurero y nuestro compromiso con la excelencia nunca han cambiado.
+                p En Nuestra Aventura, nuestros valores fundamentales son la autenticidad, la pasión por los viajes, el servicio excepcional y el compromiso con la satisfacción del cliente. Estos valores nos guían en todo lo que hacemos y nos aseguramos de que cada viaje que organizamos refleje nuestra dedicación a ofrecerte lo mejor.
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="imagen sobre nosotros inicio", class="img-fluid")
+
+        include ./layout/bloque_viajes
+
+    .descuento 
+        .container 
+            .row 
+                .col-md-6 
+                    .contenido 
+                        h3 5% de Descuento 
+                        p.titulo Viaje a Canada 
+                        p.fecha 20 de Mayo de 2023 - 20 de Junio de 2023
+                        p.precio $2,500 USD
+    
+    .container 
+        h2.mt-5.text-center Testimoniales
+        include ./layout/bloque_testimonial
