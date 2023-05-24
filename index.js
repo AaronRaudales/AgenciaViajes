@@ -4,6 +4,7 @@ import db from './config/db.js';
 
 
 
+
 // Solo debe de haber una llamada a express
 const app = express();
 
