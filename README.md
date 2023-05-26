@@ -4,7 +4,7 @@ Proyecto de ejemplo utilizando HTML, CSS, Bootstrap, Node.js, Express y Sequeliz
 
 ## Descripción
 
-Este es un proyecto de ejemplo que muestra cómo utilizar HTML, CSS, Bootstrap, Node.js, Express y Sequelize juntos para crear una aplicación web. El objetivo de este proyecto es proporcionar un punto de partida para aquellos que deseen desarrollar aplicaciones web utilizando estas tecnologías.
+Este es un proyecto de ejemplo que muestra cómo utilizar HTML, CSS, Bootstrap, Node.js, Express y Sequelize juntos para crear una aplicación web. El objetivo de este proyecto es proporcionar un punto de partida para desarrollar aplicaciones web utilizando estas tecnologías.
 
 ## Características principales
 
